@@ -1,0 +1,77 @@
+.snake-ladder-game {
+    text-align: center;
+    background-image: url("C:/Users/RAMKALAWON/Downloads/pastels.jpg");
+  }
+  
+  .board {
+    display: flex;
+    flex-wrap: wrap;
+    width: 2000px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .box {
+    position: relative;
+    width: 200px;
+    height: 100px;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .box-number {
+    font-weight: bold;
+    font-size: 50px;
+  }
+  
+  .financial-advice {
+    font-size: 18px;
+    text-align: center;
+  }
+  
+  .game-message {
+    margin-top: 40px;
+  }
+  
+  .roll-dice-btn {
+    margin-top: 20px;
+    font-size: 50px;
+    width: 300px;
+    height:100px;
+  }
+  h1 {
+    font-size: 40px; 
+  }
+  .game-message {
+    font-size: 40px; 
+    text-align: center;
+    font-weight: bold;
+  }
+  .pawn {
+    width: 20px;
+    height: 20px;
+    background-color: red; /* Customize the color as needed */
+    border-radius: 50%;
+    margin: 0 auto;
+  }
+  .financial-advice {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    font-weight: bold;
+  }
+  
+  
+  
+  
+  
+  

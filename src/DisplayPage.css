@@ -1,0 +1,72 @@
+/* DisplayPage.css */
+/* DisplayPage.css */
+.display-page {
+  padding: 20px;
+  max-height: 500px;
+  overflow-y: auto;
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+  
+}
+
+.display-page::-webkit-scrollbar {
+  width: 6px;
+  background-color: transparent;
+}
+
+.display-page::-webkit-scrollbar-thumb {
+  background-color: transparent;
+}
+
+
+/* Rest of the CSS styles remain the same */
+
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: royalblue;
+  margin-bottom: 16px;
+}
+
+.age-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.age-item {
+  margin-bottom: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.age-label {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: royalblue;
+}
+
+.unlocked-label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.unlocked-items {
+  padding-left: 20px;
+}
+
+.unlocked-items li {
+  font-size: 14px;
+  margin-bottom: 4px;
+}
+
+.message {
+  font-size: 16px;
+  margin-top: 16px;
+  color: #777;
+}
